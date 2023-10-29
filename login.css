@@ -1,0 +1,47 @@
+
+body{
+    background-image: url("loguin.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* Opcional: fija la imagen en su posición */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center center; /* Centra la imagen en la página */
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+.mi-div{
+    text-align: center;
+    width: 300px; /* Ancho del div */
+    height: 300px; /* Altura del div */
+    background-color: #0e7965de; /* Color de fondo del div (en este caso, azul) */
+    border-radius: 90px;
+    color: #0c0303; /* Color del texto (en este caso, blanco) */
+    padding: 20px; /* Espaciado interior para separar el contenido del borde */
+    border: 2px solid #000000; /* Borde del div (en este caso, negro) */
+
+}
+
+.text {
+    background-color: rgba(46, 144, 174, 0.5); /* Fondo semi transparente */
+    border-radius: 10px;
+    padding: 10px; /* Separación entre elementos */
+}
+
+.text input[type="text"] {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px; /* Separación entre el borde y el texto en los campos de entrada */
+    background-color: transparent; /* Fondo transparente para los campos de entrada */
+    color: #000; /* Color del texto en los campos de entrada */
+    font-size: 16px; /* Tamaño de texto más grande */
+}
+
+.text::placeholder {
+    font-size: 20px; /* Aumenta el tamaño del marcador de posición a 20px */
+    color: #0000007c; /* Cambia el color del marcador de posición a rojo (#FF0000) */
+}
+
