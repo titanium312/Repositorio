@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Compilación para ES6
+    "module": "CommonJS",                     // Usar módulos CommonJS para Node.js
+    "strict": true,                           // Activar todas las comprobaciones estrictas
+    "esModuleInterop": true,                  // Permitir importaciones de módulos
+    "skipLibCheck": true,                     // Evitar la comprobación de bibliotecas
+    "forceConsistentCasingInFileNames": true, // Asegurar el uso consistente de mayúsculas
+    "outDir": "./dist"                        // Directorio de salida para los archivos JS compilados
+  },
+  "include": [
+    "src/**/*.ts"                             // Incluir todos los archivos .ts en la carpeta src
+  ]
+}
