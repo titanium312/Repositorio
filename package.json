@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",                  // Compila el código TypeScript a JavaScript
-    "start": "node dist/app.js"      // Ejecuta el servidor desde los archivos JS generados
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "npx ts-node src/app.ts"
   },
   "keywords": [],
   "author": "",
